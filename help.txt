@@ -1,0 +1,73 @@
+		~ Tata Cara Penggunaan Program Cuci Mobil ~
+
+|=====================================|
+|             Antrian cuci            |
+|=====================================|
+Tempat ke 1 : --11: 0: 0(a12222) --
+Tempat ke 2 : Antrian Kosong
+Tempat ke 3 : Antrian Kosong
+
+ ini adalah tempat antrian cuci mobil jika pelangan sudak masuk antrian
+ Tampilan ini terdapat di atas menu.
+
+Pilih salah satu pilihan menu yang tersedia dalam tampilan awal Dengan rincian sebagai berikut; 
+
+	1.Masuk antrian 
+	2.Checkout
+	3.Tampilkan rekap
+	4.HELP
+	5.EXIT
+
+penggunaan;
+
+Pilih nomor 1 (masuk antrian), dengan ketik nomor 1 kemudian tekan enter pada tombol keyboard.
+	1.Pelanggan menginputkan jam masuk saat ini dengan format jam:menit:detik (hh;mm;ss) atau memasukan dengan jam saja.
+	2.setelah itu program akan menampilkan rincian jenis mobil seperti berikut ini
+|==================================================================================================================|
+|                                   Rincian Jenis Mobil                                                            |
+|==================================================================================================================|
+| 1. A (mobil kecil) : KIA Picanto, Daihatsu Ceria,                                                                |
+|                      Suzuki Karimun, Toyota Yaris dll (30 menit)                                                 |
+| 2. B (minibus)     : Toyota Avanza, Honda Freed, Suzuki Ertiga, dll (45 menit)                                   |           
+| 3. C (mobil besar) : Metromini, Truk, dll (75 menit)                                                             |
+|==================================================================================================================|
+	3.pelanggan menginputkan Nomor Polisi, dengan contoh “ B2020NPU” atau “b2020npu”
+	4.dilanjutkan dengan menginputkan jenis mobil, dengan contoh “ a” atau “A” untuk mobil kecil, “ b” atau “B” untuk minibus dan “ c” atau “C” untuk mobil besar.
+	5.setelah itu, program menampilkan nomor ID mobil
+	
+Noted ;
+Apabila pelanggan baru masuk ketika tempat cuci mobil penuh, maka waktu masuk pelanggan baru akan dijeda terlebih dahulu menunggu mobil terakhir yang dicuci selesai. 
+Apabila pelanggan masuk kurang dari jam 07.00 atau lebih dari jam 17.00 maka antrian pelanggan akan tertolak. Sedangkan apabila pelanggan masuk jam 12.00 sampai 12.59, maka antrian akan ditampung dan mobil akan dicuci pada jam 13.00.
+
+
+Pilih nomor 2 (Tampilan rekap) dengan ketik nomor 2 kemudian tekan enter pada tombol keyboard.
+	1.pelangan menginputkan nomor ID mobil
+	2.setelah itu, program menampilkan nomor polisi, jenis mobil, tempat cuci, jam masuk, jam keluar, dan biaya akhir.
+	3.pelangan menginputkan uang yang harus di bayarkan. jika pelangan membayar atau menginputkan uang lebih maka program akan menampilkan uang kembalian.
+
+Pilih nomor 3 (Tampilan rekap) dengan ketik nomor 3 kemudian tekan enter pada tombol keyboard.
+	1.untuk menampilkan data yang tersimpan atau riwayat  mengenai detail penggunaan cuci mobil, dengan tampilan seperti ini:
+|=====================================================================================================================|
+|   Nomor Polisi   | Jenis Mobil |  Jam kedatangan  |  Jam Operasi  |  Jam Keluar  | Tempat Cuci  | Tanggal Pencucian |
+|=====================================================================================================================|
+|      A1234B      |     A       |    10: 0: 0      |    10: 0: 0   |    10:30: 0  |      1       |   24/ 6/2020      |
+|       B123D      |     B       |    10:15: 0      |    10:15: 0   |    11: 0: 0  |      2       |   24/ 6/2020      |
+|     B1234DD      |     C       |    10:30: 0      |    10:30: 0   |    11:45: 0  |      3       |   24/ 6/2020      |
+|=====================================================================================================================|
+
+
+Pilih nomor 4 (HELP) dengan ketik nomor 4 kemudian tekan enter pada tombol keyboard.
+	1.untuk menampilkan tata cara penggunaan program cuci mobil
+
+Pilih nomor 5 (EXIT)  dengan ketik nomor 5 kemudian tekan enter pada tombol keyboard.
+	1.untuk keluar dari program
+
+
+===================================================================================================================================
+Untuk Informasi lebih lanjut bisa menghubungi kontak berikut:
+
+Politeknik Negeri Bandung
+Jurusan Teknik Komputer dan Informatika
+
+Jl. Gegerkalong Hilir, Ciwaruga, Kec. Parongpong, Kabupaten Bandung Barat, Jawa Barat 40559 Bandung, Indonesia
+
